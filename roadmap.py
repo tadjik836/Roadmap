@@ -1,3 +1,16 @@
+"""
+Roadmap Generator v1.0
+
+Автоматически создает дорожную карту проекта в форматах:
+- PNG изображение (roadmap.png)
+- Markdown документ (roadmap.md)
+
+Использование:
+    python roadmap.py
+
+Зависимости:
+    pip install matplotlib pandas
+"""
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from datetime import datetime
